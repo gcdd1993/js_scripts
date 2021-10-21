@@ -11,7 +11,7 @@ let jc_timebody = $.isNode() ? (process.env.jc_timebody ? process.env.jc_timebod
 let jc_timebodyArr = []
 let jc_timebodys = ""
 let indexLast = $.getdata('jcbody_index') ? $.getdata('jcbody_index') : 0;
-let maxReadNum = 100
+let maxReadNum = randomInt(70, 100)
 const jc_timeheader = {
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -213,6 +213,10 @@ function timejl(timeout = 0) {
             }
         }, timeout)
     })
+}
+
+function randomInt(min, max) {
+    return Math.round(Math.random() * (max - min)) + min;
 }
 
 // @formatter:off

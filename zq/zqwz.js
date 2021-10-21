@@ -33,7 +33,7 @@ let zq_timebodyArr = []
 let zq_timebodys = ""
 let zqwznum
 let indexLast = $.getdata('zqbody_index') ? $.getdata('zqbody_index') : 0;
-let maxReadNum = 100
+let maxReadNum = randomInt(70, 100)
 const zq_timeheader = {
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -246,6 +246,10 @@ function timejl(timeout = 0) {
             }
         }, timeout)
     })
+}
+
+function randomInt(min, max) {
+    return Math.round(Math.random() * (max - min)) + min;
 }
 
 // @formatter:off

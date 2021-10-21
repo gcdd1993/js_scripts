@@ -7,42 +7,42 @@
   "rewrite": [
     {
       "match": "https://ant.xunsl.com/v5/article/info.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/article/detail.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/nameless/adlickstart.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jckkz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jckkz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcqd.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jcqd.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcbox.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jcbox.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/user/stay.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jc_withdraw.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jc_withdraw.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jc_today_score.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jc_today_score.js",
       "enable": true
     }
   ]

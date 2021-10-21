@@ -3,7 +3,7 @@
   "desc": "无",
   "date": "2021-08-05 20:32:08",
   "author": "https://t.me/ShaolinTemple1",
-  "resource": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_cron.json",
+  "resource": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_cron.json",
   "list": [
     {
       "name": "中青签到",
@@ -11,7 +11,7 @@
       "time": "15 2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqqd.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqqd.js"
       }
     },
     {
@@ -21,7 +21,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqwz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqwz.js"
       }
     },
     {
@@ -31,7 +31,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqkkz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqkkz.js"
       }
     },
     {
@@ -41,7 +41,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_share.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_share.js"
       }
     },
     {
@@ -51,7 +51,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_Adv_video.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_Adv_video.js"
       }
     },
     {
@@ -61,7 +61,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqbox.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqbox.js"
       }
     },
     {
@@ -71,7 +71,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_today_score.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_today_score.js"
       }
     },
     {
@@ -81,7 +81,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_friendSign.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_friendSign.js"
       }
     },
     {
@@ -91,7 +91,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_Rotary.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_Rotary.js"
       }
     },
     {
@@ -101,7 +101,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_wakeup.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_wakeup.js"
       }
     },
     {
@@ -111,7 +111,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqssz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqssz.js"
       }
     },
     {
@@ -121,7 +121,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqllz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqllz.js"
       }
     },
     {
@@ -131,7 +131,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_double.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_double.js"
       }
     },
     {
@@ -141,7 +141,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_withdraw.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_withdraw.js"
       }
     }
   ]
