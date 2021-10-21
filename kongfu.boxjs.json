@@ -1,0 +1,208 @@
+{
+    "id": "shaolin-kongfu.app.sub",
+    "name": "少林功夫boxjs订阅",
+    "author": "@shaolin-kongfu",
+    "icon": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "apps": [
+      {
+      "id": "jcKkz",
+      "name": "晶彩看看赚",
+      "keys": [
+        "lookStartbody",
+          "jc_cookie"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jckkz.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jckkz.js",
+
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcRead",
+      "name": "晶彩自动阅读",
+      "keys": [
+        "wzbody",
+        "jc_timebody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jcwz.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcwz.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcSign",
+      "name": "晶彩签到&宝箱",
+      "keys": [
+        "qdbody",
+        "jcboxbody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jcqd.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jcqd.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcCookie",
+      "name": "晶彩火爆转发&好友签到红包&福利视频",
+      "keys": [
+        "jc_cookie"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts",
+      "script": "https://github.com/shaolin-kongfu/js_scripts",
+      "icons": [
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+     },
+    {
+      "id": "jc_withdraw",
+      "name": "晶彩提现",
+      "keys":
+        ["jc_withdraw","jc_cash"],
+  "settings": [{
+          "id": "jc_cash",
+          "val": "0.3",
+          "name": "提现金额",
+          "type": "radios",
+          "desc": "自动提现金额需和获取提现请求保持一致",
+          "items": [
+            {
+              "key": "0.3",
+              "label": "0.3元"
+            },
+            {
+              "key": "30",
+              "label": "30元"
+            }
+          ]
+        }
+        ],
+
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jc_withdraw.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/jc_withdraw.js",
+      "icons": [
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+     {
+      "id": "zqKkz",
+      "name": "中青看看赚",
+      "keys": [
+        "zqlookStartbody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zqkkz.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqkkz.js",
+
+      "icons": [
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+    },
+    {
+      "id": "zqRead",
+      "name": "中青自动阅读",
+      "keys": [
+        "zqwzbody",
+        "zq_timebody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zqwz.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqwz.js",
+      "icons": [
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+    },
+    {
+      "id": "zqSign",
+      "name": "中青签到&宝箱",
+      "keys": [
+        "zqqdbody",
+        "zqboxbody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zqqd.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zqqd.js",
+      "icons": [
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+        "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+    },
+    {
+      "id": "zqcookie",
+      "name": "中青火爆转发&好友签到红包&福利视频&打卡赚",
+      "keys": [
+        "zq_cookie"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/tree/main/zq",
+      "script": "https://github.com/shaolin-kongfu/js_scripts/tree/main/zq",
+      "icons": [
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+     },
+     {
+      "id": "zqssz.js",
+      "name": "中青搜索赚",
+      "keys": [
+        "zqsszbody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zq_Adv_video.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_Adv_video.js",
+      "icons": [
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+     },
+     {
+      "id": "zqllz.js",
+      "name": "中青浏览赚",
+      "keys": [
+        "zqllzbody"
+      ],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zq_Adv_video.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_Adv_video.js",
+      "icons": [
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+     },
+    {
+      "id": "zq_withdraw",
+      "name": "中青提现",
+      "keys":
+        ["zq_withdraw","zq_cash"],
+  "settings": [{
+          "id": "zq_cash",
+          "val": "30",
+          "name": "提现金额",
+          "type": "radios",
+          "desc": "自动提现金额需和获取提现请求保持一致",
+          "items": [
+            {
+              "key": "10",
+              "label": "10元"
+            },
+            {
+              "key": "30",
+              "label": "30元"
+            }
+          ]
+        }
+        ],
+
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/zq/zq_withdraw.js",
+      "script": "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/zq/zq_withdraw.js",
+      "icons": [
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg",
+      "https://raw.githubusercontent.com/gcdd1993/My-Scripts/shaolin_kongfu/kongfu.jpg"
+      ]
+    }
+   ]
+}
