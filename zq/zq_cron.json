@@ -138,7 +138,7 @@
       "name": "中青自动提现",
       "type": "cron",
       "time": "25 10 * * *",
-      "running": true,
+      "running": false,
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_withdraw.js"

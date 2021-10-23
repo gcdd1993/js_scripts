@@ -88,7 +88,7 @@
       "name": "晶彩提现",
       "type": "cron",
       "time": "34 10 * * *",
-      "running": true,
+      "running": false,
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/jc_withdraw.js"
