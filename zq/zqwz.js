@@ -33,7 +33,7 @@ let zq_timebodyArr = []
 let zq_timebodys = ""
 let zqwznum
 let indexLast = $.getdata('zqbody_index') ? $.getdata('zqbody_index') : 0;
-let maxReadNum = randomInt(70, 100)
+let maxReadNum = randomInt(160, 180)
 const zq_timeheader = {
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
