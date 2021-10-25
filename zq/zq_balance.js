@@ -54,7 +54,7 @@ async function getBalance() {
                     if (data.status === 0) {
                         let money = data.user.money
                         let withdraw = money >= 30 ? "可提现" : "还不能提现，再等等吧"
-                        $.msg = $.msg + `【账号${$.index + 1}】 🎉当前现金：${money}（${withdraw}）\n`
+                        $.msg = $.msg + `【账号${$.index + 1} ${$.uid}】 🎉当前现金：${money}（${withdraw}）\n`
                         $.msg = $.msg + `今日收益：${data.user.today_score}\n总收益：${data.user.total_score}\n当前金币：${data.user.all_score}（≈${data.user.money}）\n`
                         for (let i = 0; i < data.history[0].group.length; i++) {
                             $.msg = $.msg + `${data.history[0].group[i].name}：${data.history[0].group[i].money}\n`
