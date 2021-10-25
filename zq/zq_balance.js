@@ -19,9 +19,9 @@ const re = /zqkey=(.*)&zqkey_id=(.*)&uid=(\d+)/
         // console.log($.zqKey, $.zqKeyId, $.uid)
         console.log(`******开始【中青账号${$.index + 1} ${$.uid}】*********\n`)
         await getBalance()
-        console.log($.msg)
-        await notify.sendNotify("中青账号收益统计", $.msg)
     }
+    console.log($.msg)
+    await notify.sendNotify("中青账号收益统计", $.msg)
 })()
     .catch((e) => $.logErr(e))
     .finally(() => $.done());
