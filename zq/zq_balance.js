@@ -16,11 +16,11 @@ const re = /zqkey=(.*)&zqkey_id=(.*)&uid=(\d+)/
         $.zqKey = match[1]
         $.zqKeyId = match[2]
         $.uid = match[3]
-        console.log($.zqKey, $.zqKeyId, $.uid)
+        // console.log($.zqKey, $.zqKeyId, $.uid)
         console.log(`******开始【中青账号${$.index + 1} ${$.uid}】*********\n`)
         await getBalance()
         console.log($.msg)
-        await notify.send("中青账号收益统计", $.msg)
+        await notify.sendNotify("中青账号收益统计", $.msg)
     }
 })()
     .catch((e) => $.logErr(e))
