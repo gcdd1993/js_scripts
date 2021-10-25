@@ -55,8 +55,7 @@ async function getBalance() {
                         let money = data.user.money
                         let withdraw = money >= 30 ? "可提现" : "还不能提现，再等等吧"
                         $.msg = $.msg + `【账号${$.index + 1}】 🎉当前现金：${money}（${withdraw}）\n`
-                        $.msg = $.msg + `今日收益：${data.user.today_score}\n总收益：${data.user.total_score}\n账号当前剩余：${data.user.all_score}（≈${data.user.money}）\n`
-                        $.msg = $.msg + `收益详情：\n`
+                        $.msg = $.msg + `今日收益：${data.user.today_score}\n总收益：${data.user.total_score}\n当前金币：${data.user.all_score}（≈${data.user.money}）\n`
                         for (let i = 0; i < data.history[0].group.length; i++) {
                             $.msg = $.msg + `${data.history[0].group[i].name}：${data.history[0].group[i].money}\n`
                         }
