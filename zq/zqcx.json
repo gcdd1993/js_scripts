@@ -54,6 +54,11 @@
       "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zqssz.js",
       "enable": true
+    },
+    {
+      "match": "https://kandian.wkandian.com/v17/Ad/getReward.json",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_5_60.js",
+      "enable": true
     }
   ]
 }

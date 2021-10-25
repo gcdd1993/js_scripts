@@ -135,6 +135,16 @@
       }
     },
     {
+      "name": "中青看点5分钟60分钟任务领取",
+      "type": "cron",
+      "time": "34 15 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/gcdd1993/js_scripts/master/zq/zq_5_60.js"
+      }
+    },
+    {
       "name": "中青自动提现",
       "type": "cron",
       "time": "25 10 * * *",
