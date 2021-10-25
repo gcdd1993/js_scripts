@@ -1,6 +1,6 @@
 /**
  * 中青看点收益提醒
- * cron 0 23 * * * zq_balance.js
+ * cron: 0 23 * * * zq_balance.js
  */
 const $ = new Env("中青看点收益");
 const notify = $.isNode() ? require('./sendNotify') : '';
