@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # v2p中青工具
-import json
-import notify
+
+import datetime
+import random
+import sys
 
 import requests
-import random
+
+
+def print_ts(s):
+    print("[{0}]: {1}".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), s))
+    sys.stdout.flush()
 
 
 def read(key):
@@ -15,7 +21,7 @@ def read(key):
     :return: 值
     """
     try:
-        r = requests.get(f"http://{ip}:8100/store?key={key}").json()
+        r = requests.get(f"{v2p}/store?key={key}").json()
         # print(r)
         return r
     except:
@@ -35,9 +41,9 @@ def write(key, value):
             "value": value
         }
     }
-    print(json.dumps(body))
-    r = requests.put(f"http://{ip}:8100/store", json=body).json()
-    print(r)
+    # print(json.dumps(body))
+    r = requests.put(f"{v2p}/store", json=body).json()
+    # print(r)
 
 
 def fetch_one_key(key):
@@ -57,6 +63,10 @@ def fetch_key(key, split_key):
         msg += f"没有获取到 {key} 数据，赶紧抓取，以免影响收益\n"
     else:
         msg += f"获取 {len(value)} 条 {key} 数据\n"
+        # 打乱顺序提交
+        random.shuffle(value)
+        res["value"] = split_key.join(value)
+        write(key, res)
 
 
 def fetch_key_limit(key, split_key, limit):
@@ -91,7 +101,7 @@ def query_data():
     fetch_one_key("zqbody_index")
 
     # 晶彩 wzbody lookStartbody qdbody jc_timebody jc_cookie jcboxbody jc_withdraw
-    fetch_key_limit("jc_timebody", "@", 1)
+    fetch_key_limit("jc_timebody", "&", 1)
     fetch_key_limit("jc_cookie", "@", 1)
     fetch_key_limit("qdbody", "&", 1)
     fetch_key("jc_withdraw", "@")
@@ -102,12 +112,11 @@ def query_data():
 
 
 if __name__ == '__main__':
-    # ips = ["172.16.1.22", "172.16.1.23", "172.16.1.24"]
+    # v2ps = ["http://172.16.1.22:8100", "http://172.16.1.23:8100", "http://172.16.1.24:8100"]
     msg = ""
-    ips = ["localhost"]
-    for ip in ips:
+    v2ps = ["http://localhost:8100"]
+    for v2p in v2ps:
         query_data()
-        notify.send(f"提示 -- {ip}", msg)
-        print(f"提示 -- {ip}")
-        print(msg)
+        print_ts(f"提示 -- {v2p}\n")
+        print_ts(msg)
         msg = ""
